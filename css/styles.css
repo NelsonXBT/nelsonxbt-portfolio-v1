@@ -10,6 +10,16 @@ body {
     text-align: center;
 }
 
+img {
+    max-width: 100%;
+}
+
+hr {
+    width: 100%;
+    opacity: 0.5;
+    color: lightgrey;
+}
+
 ul {
     list-style: none;
     margin: 0;
@@ -76,4 +86,33 @@ PARALLAX SECTION
 
 .parallax li {
     margin: 2rem 0;
+}
+
+
+/* 
+RECENT WORK SECTION 
+*/
+
+.recent-work {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.3rem;
+    margin: 1rem 0;
+}
+
+.recent-work-title {
+    font-size: 1.6rem;
+
+}
+
+.recent-work-info {
+    padding: 1rem;
+}
+
+.recent-work-info h4 {
+    font-size: 1.4rem;
+}
+
+.features > li {
+    margin: 1rem 0;
 }
