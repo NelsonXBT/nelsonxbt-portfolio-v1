@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="./css/styles.css">
     <link rel="icon" href="./img/nelsonxbt-favicon.png">
     <title>NelsonXBT's Portfolio</title>
@@ -26,11 +27,11 @@
 
     <section class="parallax">
         <ul>
-            <li>Jinx Fan Page</li>
-            <li>Silco Fan Page</li>
-            <li>Youtube Videos</li>
-            <li>Crypto Basic courses</li>
-            <li>Airdrop Calimer Script</li>
+            <li data-aos="flig-up" data-aos-delay="0" data-aos-duration="800">Jinx Fan Page</li>
+            <li data-aos="flig-up" data-aos-delay="100" data-aos-duration="800">Silco Fan Page</li>
+            <li data-aos="flig-up" data-aos-delay="200" data-aos-duration="800">Youtube Videos</li>
+            <li data-aos="flig-up" data-aos-delay="300" data-aos-duration="800">Crypto Basic courses</li>
+            <li data-aos="flig-up" data-aos-delay="400" data-aos-duration="800">Airdrop Calimer Script</li>
         </ul>
     </section>
 
@@ -39,8 +40,9 @@
         <hr>
         <div class="recent-work">
             <div class="recent-work-info move-right">
-                <h4>jinx Fan Page</h4>
-                <p>A fan page for character Jinx, in the animated story Arcane</p>
+                <h4 data-aos="slide-left" data-aos-duration="1000">jinx Fan Page</h4>
+                <div data-aos="fade-in" data-aos-duration="1000">
+                    <p>A fan page for character Jinx, in the animated story Arcane</p>
                 <hr>
                 <p>Jinx Characteristics</p>
                 <ul class="features">
@@ -51,14 +53,16 @@
                 <hr>
                 <a href="https://nelsonxbt.github.io/Jinx/">Visit Site</a>
 
+                </div>
             </div>
-            <div class="recent-work-image">
+            <div class="recent-work-image" data-aos="fade-in" data-aos-duration="1500">
                 <img src="./img/jinx-pfp.png" alt="Jinx Page image">
             </div>
         </div>
         <div class="recent-work">
             <div class="recent-work-info">
-                <h4>Silco Fan Page</h4>
+                <h4 data-aos="slide-right" data-aos-duration="1000">Silco Fan Page</h4>
+                <div data-aos="fade-in" data-aos-duration="1000">
                 <p>A fan page for character Jinx, in the animated story Arcane</p>
                 <hr>
                 <p>Silco Characteristics</p>
@@ -69,9 +73,10 @@
                 </ul>
                 <hr>
                 <a href="https://nelsonxbt.github.io/Jinx/Silco.html/">Visit Site</a>
+                </div>
 
             </div>
-            <div class="recent-work-image">
+            <div class="recent-work-image" data-aos="fade-in" data-aos-duration="1500">
                 <img src="./img/silco-pfp.png" alt="silco Page image">
             </div>
         </div>
@@ -79,11 +84,16 @@
         
     <section id="contact">
         <div class="contact-info">
-            <p class="contact-heading">Don't be a <br> stranger</p>
-            <p class="contact-text">Need a developer? let's talk!</p>
-            <p class="contact-text">nelsondev@gmail.com</p>
+            <p class="contact-heading" data-aos="slide-up" data-aos-duration="1500">Don't be a <br> stranger</p>
+            <p class="contact-text" data-aos="slide-left" data-aos-delay="500" data-aos-duration="1500">Need a developer? let's talk!</p>
+            <p class="contact-text" data-aos="slide-left" data-aos-delay="600" data-aos-duration="1500">nelsondev@gmail.com</p>
         </div>
         <h3 class="rotate">Contact</h3>
     </section>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> 
+<script>
+  AOS.init();
+</script>
 </body>
 </html>
